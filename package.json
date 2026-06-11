@@ -10,6 +10,10 @@
     "Themes"
   ],
   "publisher": "mirrrjr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirrrjr/moonfly-theme-vscode.git"
+  },
   "contributes": {
     "themes": [
       {
