@@ -1,0 +1,21 @@
+{
+  "name": "moonfly",
+  "displayName": "Moonfly",
+  "description": "Moonfly - dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moonfly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Moonfly-color-theme.json"
+      }
+    ]
+  }
+}
