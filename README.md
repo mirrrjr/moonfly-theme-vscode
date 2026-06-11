@@ -1,16 +1,68 @@
-# moonfly README
+![Moonfly Theme Preview](https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/moonfly.png)
 
-## Working with Markdown
+A dark theme for Zed featuring an ultra-dark background, vibrant syntax highlighting, and a carefully balanced color palette optimized for long coding sessions.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Screenshots
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<img width="1366" height="736" alt="Image" src="https://github.com/user-attachments/assets/e1d9d5b3-4515-463e-998d-bb4b7b6933e1" />
 
-## For more information
+## Features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- Deep black background (`#080808`)
+- Low visual noise
+- Italic comments
+- Consistent syntax highlighting
+- Carefully balanced ANSI terminal colors
+- Optimized for PHP, Laravel, JavaScript, TypeScript, Vue, React, Rust, Go, and other modern languages
 
-**Enjoy!**
+## Preview
+
+| Element    | Color     |
+| ---------- | --------- |
+| Background | `#080808` |
+| Foreground | `#bdbdbd` |
+| Keywords   | `#cf87e8` |
+| Functions  | `#80a0ff` |
+| Strings    | `#8cc85f` |
+| Types      | `#74b2ff` |
+| Numbers    | `#ae81ff` |
+| Operators  | `#85dc85` |
+| Comments   | `#323437` |
+| Variables  | `#bdbdbd` |
+| Tags       | `#ff5d5d` |
+| Links      | `#79dac8` |
+
+## Installation
+
+### Manual
+
+```sh
+mkdir -p ~/.config/zed/themes
+cp moonfly.json ~/.config/zed/themes/
+```
+
+Then select the theme in your Zed settings:
+
+```json
+{
+  "theme": "Moonfly"
+}
+```
+
+## Terminal Palette
+
+| Color   | Normal    | Bright    |
+| ------- | --------- | --------- |
+| Black   | `#323437` | `#949494` |
+| Red     | `#ff5d5d` | `#ff5189` |
+| Green   | `#8cc85f` | `#36c692` |
+| Yellow  | `#e3c78a` | `#c6c684` |
+| Blue    | `#80a0ff` | `#74b2ff` |
+| Magenta | `#EE64AC` | `#F075B5` |
+| Cyan    | `#79dac8` | `#85dc85` |
+| White   | `#c6c6c6` | `#e4e4e4` |
+
+## Credits
+
+- Original Moonfly color palette by [bluz71](https://github.com/bluz71/vim-moonfly-colors)
+- Ported and adapted for Zed
