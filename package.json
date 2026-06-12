@@ -2,7 +2,7 @@
   "name": "moonfly",
   "displayName": "Moonfly",
   "description": "Moonfly - dark theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -10,6 +10,7 @@
     "Themes"
   ],
   "publisher": "mirrrjr",
+  "icon": "assets/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/mirrrjr/moonfly-theme-vscode.git"
